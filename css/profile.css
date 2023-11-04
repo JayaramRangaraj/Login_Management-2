@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body
+{
+    background-color:black;
+    display: grid;
+}
+
+.seperation{
+    display: grid;
+    grid-template-columns: 0.3fr 3fr;
+}
+
+.sidenav
+{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: 100vh;
+}
+
+.card
+{
+    padding: 50px;
+}
+
+button {
+    outline: none;
+}

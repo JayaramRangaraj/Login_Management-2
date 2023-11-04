@@ -1,0 +1,87 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guvi Project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="imageSection">
+            <img src="assets/Guvi Logo.png" alt="logo" class="Logo">
+        </div>
+
+        <div class="dataSection">
+            <div class="register">
+                <h1 >Welcome</h1>
+                <form class="myform" id="Register">
+                    <input type="text" id="RegisterName" name="RegisterName" placeholder="Name" onblur="NameError()">
+                    <p id="RegisterName_Error"></p>
+                    <input type="text" id="RegisterEmail" name="RegisterEmail" placeholder="Email" onblur="EmailError()">
+                    <p id="RegisterMail_Error"></p>
+                    <input type="text" id="RegisterPassword" name="RegisterPassword" placeholder="Password" onblur="PasswordError()">
+                    <p id="RegisterPassword_Error"></p>
+                    <center><button type="submit" name="submit" onclick="RegisterButton()">Register</button></center>
+                </form>
+                <p>Already have an account <a  href="login.html">Register Now</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/indexAction.js"></script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guvi Project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="imageSection">
+            <img src="assets/Guvi Logo.png" alt="logo" class="Logo">
+        </div>
+        <div class="dataSection">
+            <div class="cen">
+                <h1>Welcome</h1>
+                <form class="myform" id="Register">
+                    <div class="form-group">
+                        <label for="RegisterName">Name</label>
+                        <input type="text" class="form-control" name="RegisterName" id="RegisterName" placeholder="e.g Jay" onblur="NameError()">
+                      </div>
+                      <p  class="wrong" id="RegisterName_Error"></p>
+                
+                    <div class="form-group">
+                      <label for="RegisterEmail">Email address</label>
+                      <input type="email" class="form-control" name="RegisterEmail" id="RegisterEmail" aria-describedby="emailHelp" placeholder="e.g jay@gmail.com" onblur="EmailError()">
+                    </div>
+                    <p class="wrong" id="RegisterMail_Error"></p>
+                
+                    <div class="form-group">
+                      <label for="RegisterPassword">Password</label>
+                      <input type="password" class="form-control" id="RegisterPassword" name="RegisterPassword" placeholder="*******" onblur="PasswordError()">
+                    </div>
+                    <p class="wrong" id="RegisterPassword_Error"></p>
+
+                    <center><button type="submit" name="submit" onclick="RegisterButton()" class="btn btn-primary">Register</button></center>
+                </form>
+                <p>Already have an account? <a href="login.html">Login Now</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/indexAction.js"></script>
+</body>
+</html>
